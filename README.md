@@ -6,6 +6,8 @@ usage:
 
     # build docker image
     docker build -t llmcli .
+    # or, rebuild to update
+    docker build --no-cache -t llmcli .
 
     # enter container
     ./run.sh
